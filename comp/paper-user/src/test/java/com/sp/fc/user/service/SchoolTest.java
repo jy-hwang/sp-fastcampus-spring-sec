@@ -15,14 +15,12 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @DataJpaTest
 public class SchoolTest {
-
   /**
    * 1. 학교를 생성한다.
    * 2. 학교 이름을 수정한다.
    * 3. 지역 목록을 가져온다.
    * 4. 지역으로 학교 목록을 가져온다.
    */
-
   @Autowired
   private SchoolRepository schoolRepository;
 
